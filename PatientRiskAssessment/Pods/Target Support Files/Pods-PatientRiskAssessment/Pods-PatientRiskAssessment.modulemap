@@ -1,0 +1,6 @@
+framework module Pods_PatientRiskAssessment {
+  umbrella header "Pods-PatientRiskAssessment-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74F416EB2455513A00529DC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F416EA2455513A00529DC8 /* AppDelegate.swift */; };
+		74F416ED2455513A00529DC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F416EC2455513A00529DC8 /* SceneDelegate.swift */; };
+		74F416F02455513A00529DC8 /* PatientRiskAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74F416EE2455513A00529DC8 /* PatientRiskAssessment.xcdatamodeld */; };
+		74F416F22455513A00529DC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F416F12455513A00529DC8 /* ContentView.swift */; };
+		74F416F42455513D00529DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F416F32455513D00529DC8 /* Assets.xcassets */; };
+		74F416F72455513D00529DC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F416F62455513D00529DC8 /* Preview Assets.xcassets */; };
+		74F416FA2455513D00529DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F416F82455513D00529DC8 /* LaunchScreen.storyboard */; };
+		83137EB4941D22972C964D7E /* Pods_PatientRiskAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F0FAFF3D7CC6181BC4ED6D /* Pods_PatientRiskAssessment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11761D7A1A0D6075DF49297B /* Pods-PatientRiskAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientRiskAssessment.debug.xcconfig"; path = "Target Support Files/Pods-PatientRiskAssessment/Pods-PatientRiskAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		148287E71178C6A95CFE0B9A /* Pods-PatientRiskAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientRiskAssessment.release.xcconfig"; path = "Target Support Files/Pods-PatientRiskAssessment/Pods-PatientRiskAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		52F0FAFF3D7CC6181BC4ED6D /* Pods_PatientRiskAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatientRiskAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F416E72455513A00529DC8 /* PatientRiskAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientRiskAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F416EA2455513A00529DC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74F416EC2455513A00529DC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74F416EF2455513A00529DC8 /* PatientRiskAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PatientRiskAssessment.xcdatamodel; sourceTree = "<group>"; };
+		74F416F12455513A00529DC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74F416F32455513D00529DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F416F62455513D00529DC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74F416F92455513D00529DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F416FB2455513D00529DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F416E42455513A00529DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83137EB4941D22972C964D7E /* Pods_PatientRiskAssessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F19376526F0BC9B6037D17F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11761D7A1A0D6075DF49297B /* Pods-PatientRiskAssessment.debug.xcconfig */,
+				148287E71178C6A95CFE0B9A /* Pods-PatientRiskAssessment.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74F416DE2455513A00529DC8 = {
+			isa = PBXGroup;
+			children = (
+				74F416E92455513A00529DC8 /* PatientRiskAssessment */,
+				74F416E82455513A00529DC8 /* Products */,
+				1F19376526F0BC9B6037D17F /* Pods */,
+				DE38F51DC99F71D79DB01B79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74F416E82455513A00529DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F416E72455513A00529DC8 /* PatientRiskAssessment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F416E92455513A00529DC8 /* PatientRiskAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				74F416EA2455513A00529DC8 /* AppDelegate.swift */,
+				74F416EC2455513A00529DC8 /* SceneDelegate.swift */,
+				74F416F12455513A00529DC8 /* ContentView.swift */,
+				74F416F32455513D00529DC8 /* Assets.xcassets */,
+				74F416F82455513D00529DC8 /* LaunchScreen.storyboard */,
+				74F416FB2455513D00529DC8 /* Info.plist */,
+				74F416EE2455513A00529DC8 /* PatientRiskAssessment.xcdatamodeld */,
+				74F416F52455513D00529DC8 /* Preview Content */,
+			);
+			path = PatientRiskAssessment;
+			sourceTree = "<group>";
+		};
+		74F416F52455513D00529DC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74F416F62455513D00529DC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE38F51DC99F71D79DB01B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52F0FAFF3D7CC6181BC4ED6D /* Pods_PatientRiskAssessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F416E62455513A00529DC8 /* PatientRiskAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F416FE2455513D00529DC8 /* Build configuration list for PBXNativeTarget "PatientRiskAssessment" */;
+			buildPhases = (
+				C116BAD2FFC76261CE3B168D /* [CP] Check Pods Manifest.lock */,
+				74F416E32455513A00529DC8 /* Sources */,
+				74F416E42455513A00529DC8 /* Frameworks */,
+				74F416E52455513A00529DC8 /* Resources */,
+				CE27D82209DE6C21E0B3AB11 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientRiskAssessment;
+			productName = PatientRiskAssessment;
+			productReference = 74F416E72455513A00529DC8 /* PatientRiskAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F416DF2455513A00529DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rastaar Haghi";
+				TargetAttributes = {
+					74F416E62455513A00529DC8 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 74F416E22455513A00529DC8 /* Build configuration list for PBXProject "PatientRiskAssessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F416DE2455513A00529DC8;
+			productRefGroup = 74F416E82455513A00529DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F416E62455513A00529DC8 /* PatientRiskAssessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F416E52455513A00529DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F416FA2455513D00529DC8 /* LaunchScreen.storyboard in Resources */,
+				74F416F72455513D00529DC8 /* Preview Assets.xcassets in Resources */,
+				74F416F42455513D00529DC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C116BAD2FFC76261CE3B168D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientRiskAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE27D82209DE6C21E0B3AB11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientRiskAssessment/Pods-PatientRiskAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientRiskAssessment/Pods-PatientRiskAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientRiskAssessment/Pods-PatientRiskAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F416E32455513A00529DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F416EB2455513A00529DC8 /* AppDelegate.swift in Sources */,
+				74F416ED2455513A00529DC8 /* SceneDelegate.swift in Sources */,
+				74F416F22455513A00529DC8 /* ContentView.swift in Sources */,
+				74F416F02455513A00529DC8 /* PatientRiskAssessment.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74F416F82455513D00529DC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F416F92455513D00529DC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F416FC2455513D00529DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74F416FD2455513D00529DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F416FF2455513D00529DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11761D7A1A0D6075DF49297B /* Pods-PatientRiskAssessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PatientRiskAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SDN5A8D5U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PatientRiskAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rastaar.PatientRiskAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F417002455513D00529DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148287E71178C6A95CFE0B9A /* Pods-PatientRiskAssessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PatientRiskAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SDN5A8D5U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PatientRiskAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rastaar.PatientRiskAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F416E22455513A00529DC8 /* Build configuration list for PBXProject "PatientRiskAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F416FC2455513D00529DC8 /* Debug */,
+				74F416FD2455513D00529DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F416FE2455513D00529DC8 /* Build configuration list for PBXNativeTarget "PatientRiskAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F416FF2455513D00529DC8 /* Debug */,
+				74F417002455513D00529DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74F416EE2455513A00529DC8 /* PatientRiskAssessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74F416EF2455513A00529DC8 /* PatientRiskAssessment.xcdatamodel */,
+			);
+			currentVersion = 74F416EF2455513A00529DC8 /* PatientRiskAssessment.xcdatamodel */;
+			path = PatientRiskAssessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74F416DF2455513A00529DC8 /* Project object */;
+}
