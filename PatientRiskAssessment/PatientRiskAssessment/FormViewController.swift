@@ -77,7 +77,7 @@ class FormViewController: UIViewController {
     var b6: UIButton = UIButton(frame: CGRect(x: 0, y: 450 + UIScreen.main.bounds.maxY/6, width: UIScreen.main.bounds.maxX , height: 60))
     var b7: UIButton = UIButton(frame: CGRect(x: 0, y: 515 + UIScreen.main.bounds.maxY/6, width: UIScreen.main.bounds.maxX , height: 60))
     var whiteUnderTone: UIView = UIView(frame: CGRect(x: 0, y: 110 + UIScreen.main.bounds.maxY/6, width: UIScreen.main.bounds.maxX, height: UIScreen.main.bounds.maxY - 110 - UIScreen.main.bounds.maxY/6) )
-    let backgroundImg = UIImageView(image: UIImage(named: "background.png"));
+    let backgroundImg = UIImageView(image: UIImage(named: "gradient.png"));
     //var response
     var responses: ResponseMap = ResponseMap()
     
@@ -258,6 +258,7 @@ class FormViewController: UIViewController {
             updateQuestionLabel()
             questionIndex = 21
             // push results
+            resultsPage()
             print("answered index 8 with response yes, so push to results")
             return
         } else if(questionIndex == 13 && selectedResponse == "No") {
@@ -280,6 +281,7 @@ class FormViewController: UIViewController {
             return
         } else if(questionIndex == 20) {
             // push to results
+            resultsPage()
             print(self.responses.questionResponses)
         }
         updateQuestionResponseBtns()
@@ -324,44 +326,14 @@ class FormViewController: UIViewController {
         questionLabel.text = questionSet[questionIndex]
     }
     
+    func resultsPage() {
+        print("Entered present resultsPage")
+        let resPage = ResultViewController()
+        resPage.res = self.responses
+        while(self.view.subviews.count > 0) {
+            self.view.subviews[0].removeFromSuperview()
+        }
+        present(resPage, animated: true, completion: nil)
+    }
+    
 }
-
-
-
-
-/*
-"How old is the patient?"
-"What is the patient’s sex?"
-"What is the patient’s systolic blood pressure?"
-"What is the patient’s diastolic blood pressure?"
-"Does the patient have any of the following comorbidities?"
-"What is the patient’s smoking history?"
-"Is the patient presenting with symptoms of pneumonia?"
-    IF YES:
-        What is the patient’s respiratory rate?
-        What is the patient’s heart rate?
-        Is the patient confused?
-        What is the patient’s albumin level?
-        Is the patient currently receiving oxygen?+1
-            IF YES:
-                    What is the patient’s PaO2/FiO2 ratio? ANSWERS: Number, range 100-1000 or “Has not been measured yet”
-            IF NO:
-                What is the patient’s PaO2? ANSWER: Number, range 10-150 or “Has not been measured yet”
-                What is the patient’s O2 saturation? ANSWER: Percentage, range 0-100 or “Has not been measured yet”
-        Has the patient received a chest x-ray? ANSWER: Yes, No
-            IF YES:
-                Is there multi-lobar involvement on the x-ray? ANSWER: Yes, No
-        What is the patient’s arterial pH? ANSWER: Number, range 0-14 or “Has not been measured yet”
-        What is the patient’s blood urea nitrogen level? ANSWER: Number, units in either mg/dL or mmol/L with ranges 0-100, 0-50 respectively
-    IF NO:
-        ##### All of the questions so far should give an answer, but there are more optional ones to assess mortality risk ######
-        Does the patient have a history of neoplastic disease? ANSWER: Yes, No
-        Does the patient have a history of liver disease? ANSWER: Yes, No
-        Does the patient have a history of congestive heart failure? ANSWER: Yes, No
-        Does the patient have a history of cerebrovascular disease? ANSWER: Yes, no
-        Does the patient have a history of renal disease? ANSWER: Yes, No
-        What is the patient’s body temperature? ANSWER: Number, units in Celsius or Fahrenheit, range 32-42, 90-115 respectively
-        What is the patient’s blood sodium level? ANSWER: Number, units mmol/L, range 50-300, OR “Has not been measured yet”
-        What is the patient’s blood glucose level? ANSWER: Number units in mg/dL or mmol/L, range 0-2700, 0-147.6 respectively, OR “Has not been measured yet”
-        What is the patient’s hematocrit? ANSWER: Percentage, 0-100 or “Has not been measured yet”
-*/

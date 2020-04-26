@@ -9,12 +9,12 @@
 import SwiftUI
 
 struct WelcomeView: UIViewControllerRepresentable {
-    func makeUIViewController(context: Context) -> FormViewController {
-        let mapPage = FormViewController()
-        return mapPage
+    func makeUIViewController(context: Context) -> WelcomeViewController {
+        let Page = WelcomeViewController()
+        return Page
     }
     
-    func updateUIViewController(_ uiViewController: FormViewController, context: Context) {
+    func updateUIViewController(_ uiViewController: WelcomeViewController, context: Context) {
         
     }
 }

@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>SF-Pro-Text-Heavy.otf</string>
+		<string>SF-Pro-Text-Medium.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
