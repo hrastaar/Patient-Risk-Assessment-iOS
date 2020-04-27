@@ -3,7 +3,7 @@ A patient risk assessment iOS application as part of the Hack:Now hackathon comp
 
 ![alt text](https://github.com/hrastaar/PatientRiskAssessment/blob/master/introduction.png)
 
-![alt text](https://github.com/hrastaar/PatientRiskAssessment/blob/master/questions.png | height=300)
+![alt text](https://github.com/hrastaar/PatientRiskAssessment/blob/master/questions.png?height=300)
 
 
 ## How can limited hospital resources help save as many lives as possible? 
