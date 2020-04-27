@@ -1,6 +1,11 @@
 # PatientRiskAssessment
 A patient risk assessment iOS application as part of the Hack:Now hackathon competition, posted on [DevPost](https://devpost.com/software/priorisk)
 
+![alt text](https://github.com/hrastaar/PatientRiskAssessment/blob/master/introduction.png)
+
+![alt text](https://github.com/hrastaar/PatientRiskAssessment/blob/master/questions.png)
+
+
 ## How can limited hospital resources help save as many lives as possible? 
 An onslaught of COVID-19 afflicted patients at hospitals worldwide is creating nightmare scenarios for medical professionals - understanding which patients are at high risk, those who can go home, and those who immediately need hospital beds is critical for patient success. 
 Targeting individuals who are most likely to need help as soon as they get to the hospital is one way to help alleviate this issue. 
